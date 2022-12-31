@@ -91,7 +91,6 @@
 ## Feature
 - This is Plugin allows you to exchange certain currencies in the server
 - If you wonder why this is 2.0 and not 1.0, I will answer because version 1.0 of this plugin is in PocketMine 3.x.x and it was copied by <strong>SWhiteMC</strong> player
-<
 
 ## Config
 <details>
