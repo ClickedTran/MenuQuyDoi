@@ -179,6 +179,7 @@ No-Permission: "§cYou do not have permission to use this command!"
 ## Download
 - If you use a computer, you probably already know how to download
 - If you are using Android, please click <a href="https://github.com/Clickedtran/MenuQuyDoi/archive/refs/heads/Master.zip">to here</a>
+- If you are Vietnamese, Download the version dedicated to Vietnamese people <a href="https://github.com/Clickedtran/MenuQuyDoi/releases/tag/Vietnamese">in here</a>
 <br>
 
 ## Install
