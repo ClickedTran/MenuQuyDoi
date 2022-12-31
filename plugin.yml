@@ -1,0 +1,26 @@
+name: MenuQuyDoi_v2
+author: ClickedTran
+api: 4.0.0
+version: 2.0.0
+main: ClickedTran\menuquydoi\MenuQuyDoi
+description: "Được Code 100% By ClickedTran!"
+
+permissions:
+ menuquydoi.command:
+  default: true
+  description: Permission For Player's Use MenuQuyDoi!
+ menuquydoi.command.help:
+  default: true
+  description: Permission for player's use command help
+ menuquydoi.command.price:
+  default: true
+  description: Permission for player's see list price exchange money
+ menuquydoi.command.coin:
+  default: true
+  description: Permission for player's exchange PointAPI to CoinAPI
+ menuquydoi.command.point:
+  default: true
+  description: Permission for player's exchange EconomyAPI to PointAPI
+ menuquydoi.command.money:
+  default: true
+  description: Permission for player's exchange PointAPI and CoinAPI to EconomyAPI
