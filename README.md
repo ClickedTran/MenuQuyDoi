@@ -1,5 +1,5 @@
 ## General
-<caption align="top"><u>INFO PLUGIN</u></caption>
+<h3 align="center"><u>INFO PLUGIN</u></h3>
 <table border="1" align="center">
 <tr>
 <th><p><u>PLUGIN</u></p></th>
@@ -19,7 +19,7 @@
 </tr>
 </table>
 <br>
-<caption align="top" align="center"><u>ALL COMMAND FOR PLUGIN</u></caption>
+<h3 align="center"><u>ALL COMMAND FOR PLUGIN</u></h3>
 <table border="1" align="center">
 <tr>
 <th><p>Command</p></th>
