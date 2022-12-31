@@ -1,4 +1,5 @@
 ## General
+<caption align="top"><u>INFO PLUGIN</u></caption>
 <table border="1" align="center">
 <tr>
 <th><p><u>PLUGIN</u></p></th>
@@ -18,6 +19,7 @@
 </tr>
 </table>
 <br>
+<caption align="top" align="center"><u>ALL COMMAND FOR PLUGIN</u></caption>
 <table border="1" align="center">
 <tr>
 <th><p>Command</p></th>
@@ -26,7 +28,7 @@
 <th><p>Default Permission</p></th>
 </tr>
 <tr>
-<th rowspan="5">/menuquydoi</th>
+<th rowspan="6">/menuquydoi</th>
 </tr>
 <tr>
 <td align="center">
@@ -56,6 +58,17 @@
 </td>
 <td align="center">
 <p>Open Menu Exchange Coin From Point</p>
+</td>
+<td align="center">
+<p><u><o>true<u><o></p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<p>changemoney</p>
+</td>
+<td align="center">
+<p>Open Menu Exchange Money From Coin and Point</p>
 </td>
 <td align="center">
 <p><u><o>true<u><o></p>
