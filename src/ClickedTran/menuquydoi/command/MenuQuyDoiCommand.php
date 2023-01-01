@@ -23,7 +23,7 @@ class MenuQuyDoiCommand extends Command implements PluginOwned{
    
    public function __construct(MenuQuyDoi $plugin){
     $this->plugin = $plugin;
-    parent::__construct("menuquydoi", "Menu Quy Đổi Tiền Tệ Trong Server!", "/menuquydoi help");
+    parent::__construct("menuquydoi", "Server Currency Conversion Menu!", "/menuquydoi help");
     $this->setPermission("menuquydoi.command");
   }
   
@@ -38,10 +38,10 @@ class MenuQuyDoiCommand extends Command implements PluginOwned{
         case "?":
          if($sender->hasPermission("menuquydoi.command.help")){
              $sender->sendMessage("§6=====§aMenuQuyDoi Help§6=====");
-             $sender->sendMessage("§bSử dụng: §c/menuquydoi changecoin§b để mở menu đổi Coin");
-             $sender->sendMessage("§bSử dụng: §c/menuquydoi changepoint§b để mở menu đổi Point");
-             $sender->sendMessage("§bSử dụng: §c/menuquydoi changemoney§b để mở menu đổi Money");
-             $sender->sendMessage("§bSử dụng: §c/menuquydoi list§b để mở bảng giá đổi Money");
+             $sender->sendMessage("§bUse: §c/menuquydoi changecoin§b to open the Coin exchange menu");
+             $sender->sendMessage("§bUse: §c/menuquydoi changepoint§b to open the Point change menu");
+             $sender->sendMessage("§bUse: §c/menuquydoi changemoney§b to open the menu to change Money");
+             $sender->sendMessage("§bUse: §c/menuquydoi list§b to open the price list to exchange Money");
              $sender->sendMessage("§6=====§bThank For Reading§6=====");
           }else{
              $sender->sendMessage(MenuQuyDoi::getInstance()->getConfig()->get("No-Permission"));
